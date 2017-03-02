@@ -1,0 +1,11 @@
+2016.3.9
+  发布zkzy-smack初始版本1.0.0
+  发现bug
+    1、SmackConnection类disconnect方法添加消息广播解除注册
+    2、jid字符串添加资源名+"/Smack"
+2016.3.10
+  发布版本1.0.1，修复以上bug
+2016.7.4
+  发布版本1.0.2，添加本地wifi断线后自动重连功能	
+2016.7.6
+  添加退出登陆发送广播sendCancleBroadcast()方法，ACTION：SmackConst.ACTION_CONNECT_LOGOUT
